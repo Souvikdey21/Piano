@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        var one = new Audio();
+        var two = new Audio();
+        var three = new Audio();
+        var four = new Audio();
+        var five = new Audio();
+        var six = new Audio();
+        var seven = new Audio();
+        var eight = new Audio();
+        var nine = new Audio();
+        var ten = new Audio();
+
+        var blackone = new Audio();
+        var blacktwo = new Audio();
+        var blackthree = new Audio();
+        var blackfour = new Audio();
+        var blackfive = new Audio();
+        var blacksix = new Audio();
+        var blackseven = new Audio();
+
+        one.src = "68448__pinkyfinger__piano-g.wav"
+        two.src = "68447__pinkyfinger__piano-g.wav"
+        three.src = "68446__pinkyfinger__piano-f.wav"
+        four.src = "68445__pinkyfinger__piano-f.wav"
+        five.src = "68444__pinkyfinger__piano-eb.wav"
+        six.src = "68443__pinkyfinger__piano-e.wav"
+        seven.src = "68442__pinkyfinger__piano-d.wav"
+        eight.src = "68441__pinkyfinger__piano-c.wav"
+        nine.src = "68440__pinkyfinger__piano-c.wav"
+        ten.src = "68439__pinkyfinger__piano-bb.wav"
+
+        blackone.src = "piano_C_sharp.mp3"
+        blacktwo.src = "piano_D.mp3"
+        blackthree.src = "piano_D_sharp.mp3"
+        blackfour.src = "piano_E.mp3"
+        blackfive.src = "piano_F.mp3"
+        blacksix.src = "piano_F_sharp.mp3"
+        blackseven.src = "piano_G.mp3"
+        window.addEventListener("keydown", checkkeypress, false);
+
+        function checkkeypress(key) {
+            if (key.keyCode == "65") {
+                one.play()
+            }
+            if (key.keyCode == "66") {
+                two.play()
+            }
+            if (key.keyCode == "67") {
+                three.play()
+            }
+            if (key.keyCode == "68") {
+                four.play()
+            }
+            if (key.keyCode == "69") {
+                five.play()
+            }
+            if (key.keyCode == "70") {
+                six.play()
+            }
+            if (key.keyCode == "71") {
+                seven.play()
+            }
+            if (key.keyCode == "72") {
+                eight.play()
+            }
+            if (key.keyCode == "73") {
+                nine.play()
+            }
+            if (key.keyCode == "74") {
+                ten.play()
+            }
+            if (key.keyCode == "75") {
+                black1.play()
+            }
+            if (key.keyCode == "76") {
+                black2.play()
+            }
+            if (key.keyCode == "77") {
+                black3.play()
+            }
+            if (key.keyCode == "78") {
+                black4.play()
+            }
+            if (key.keyCode == "79") {
+                black5.play()
+            }
+            if (key.keyCode == "80") {
+                black6.play()
+            }
+            if (key.keyCode == "81") {
+                black7.play()
+            }
+            if (key.keyCode == "82") {
+                one.play()
+            }
+            if (key.keyCode == "83") {
+                two.play()
+            }
+            if (key.keyCode == "84") {
+                three.play()
+            }
+            if (key.keyCode == "85") {
+                four.play()
+            }
+            if (key.keyCode == "86") {
+                five.play()
+            }
+            if (key.keyCode == "87") {
+                six.play()
+            }
+            if (key.keyCode == "88") {
+                seven.play()
+            }
+            if (key.keyCode == "89") {
+                eight.play()
+            }
+            if (key.keyCode == "90") {
+                nine.play()
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div style="margin-left: 9px;">
+        <button class="white" onMouseDown="one.play ()"></button>
+        <button class="white" onMouseDown="two.play ()"></button>
+        <button class="white" onMouseDown="three.play ()"></button>
+        <button class="white" onMouseDown="four.play ()"></button>
+        <button class="white" onMouseDown="five.play ()"></button>
+        <button class="white" onMouseDown="six.play ()"></button>
+        <button class="white" onMouseDown="seven.play ()"></button>
+        <button class="white" onMouseDown="eight.play ()"></button>
+        <button class="white" onMouseDown="nine.play ()"></button>
+        <button class="white" onMouseDown="ten.play ()"></button>
+
+        <button class="black" onMouseDown="blackone.play ()"></button>
+        <button class="black2" onMouseDown="blacktwo.play ()"></button>
+        <button class="black3" onMouseDown="blackthree.play ()"></button>
+        <button class="black4" onMouseDown="blackfour.play ()"></button>
+        <button class="black5" onMouseDown="blackfive.play ()"></button>
+        <button class="black6" onMouseDown="blacksix.play ()"></button>
+        <button class="black7" onMouseDown="blackseven.play ()"></button>
+    </div>
+</body>
+
+</html>
